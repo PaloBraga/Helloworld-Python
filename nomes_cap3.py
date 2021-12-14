@@ -111,3 +111,12 @@ del motosvazias[4]
 
 print(motosvazias)
 
+moto_removida_com_pop = motosvazias.pop(2)
+
+print(motosvazias)
+
+print(moto_removida_com_pop)
+
+#Diferente da função "del" o ".pop", ele salva o item em um determinado campo.
+
+print("Hoje em dia minha moto é uma "+ moto_removida_com_pop + "!")
