@@ -101,7 +101,7 @@ print(motosvazias)
 
 motosvazias.insert(4, "sport")
 
-#Escolhe a posição na lisca, onde será adicionado o nomme.
+#Escolhe a posição na lisca, onde será adicionado o nome.
 
 print(motosvazias)
 
