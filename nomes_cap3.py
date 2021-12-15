@@ -101,7 +101,7 @@ print(motosvazias)
 
 motosvazias.insert(4, "sport")
 
-#Escolhe a posição na lisca, onde será adicionado o nome.
+#Escolhe a posição na lisca, onde será adicionado o nomme.
 
 print(motosvazias)
 
@@ -120,3 +120,17 @@ print(moto_removida_com_pop)
 #Diferente da função "del" o ".pop", ele salva o item em um determinado campo.
 
 print("Hoje em dia minha moto é uma "+ moto_removida_com_pop + "!")
+
+motosvazias.remove("BMW")
+
+print(motosvazias)
+
+#PARA USAR A FUNÇÃO ".remove" VOCÊ PRECISA SABER O NOME DO ITEM QUE SERÁ EXCLUIDO.
+motoexcluida="kawasaki"
+motosvazias.remove(motoexcluida)
+
+print(motosvazias)
+
+print("A " + motoexcluida.title() + ", não esta mais na minha vontade de adquirir!")
+
+#A FUNÇÃO ".REMOVE" TAMBÉM PODEMOS ARMAZENAR O ITEM PARA SER UTILIZADO FUTURAMENTE.
