@@ -132,5 +132,71 @@ motosvazias.remove(motoexcluida)
 print(motosvazias)
 
 print("A " + motoexcluida.title() + ", não esta mais na minha vontade de adquirir!")
-
+print("")
 #A FUNÇÃO ".REMOVE" TAMBÉM PODEMOS ARMAZENAR O ITEM PARA SER UTILIZADO FUTURAMENTE.
+
+#PAG 81
+
+cars=["bmw", "audi", "toyota", "subaru"]
+cars.sort()
+print(cars)
+print("")
+
+#FUNÇÃO COLOCA A LISTA EM ORDEM ALFABETICA
+
+cars.sort(reverse=True)
+print(cars)
+print("")
+
+#INFERNTE A ORDEM, COLOCANDO DE TRÁS PRA FRENTE
+
+cars1=["honda","fiat", "vw", "bmw"]
+
+print("A lista ordem é: ") 
+print(sorted(cars1))
+print("")
+#MODO AUXILIAR DE COLOCAR A LISTA EM ORDEM, ESSE MODO TAMBÉ PODE SER ADICIONADO O "REVERSE=TRUE" PARA INVERTER A ORDEM ALFABÉTICA
+
+print("A lista original é: ")
+print(cars1)
+print("")
+
+#PAG 82 \/
+
+cars1.reverse()
+print(cars1)
+
+cars1.reverse()
+print(cars1)
+
+print(len(cars1))
+
+#FAÇA VOCÊ MESMO - PAG 83
+
+localidades=["Serra do Mel","Natal","Macau","Rio de Janeiro"]
+
+print(localidades)
+print("")
+
+print(sorted(localidades))
+print("")
+
+print(localidades)
+print("")
+
+localidades.sort(reverse=True)
+print(localidades)
+print("")
+
+#Me confundi neste exercicio
+
+#FAÇA VOCÊ MESMO PAG 84
+cardapio=["sanduiche", "batata-frita", "cerveja"]
+print(cardapio[2])
+print("")
+
+print(cardapio[-1])
+
+#SE COLOCAR "print(cardapio[3])" DA O ERRO.
+
+#FIM DO CAP 3
