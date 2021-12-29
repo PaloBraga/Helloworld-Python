@@ -41,5 +41,5 @@ for magico in magicos:
     print(magico.title()+ ", foi um ótimo truque! \n")
     print("Mal posso esperar para ver seu próximo truque, "+ magico.title()+ "!\n")
 
-#PAG 91
+#PAG 93
 
