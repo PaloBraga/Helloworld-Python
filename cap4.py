@@ -71,3 +71,24 @@ print("")
 
 #PAG 96
 
+numero= list(range(1,6))
+print(numero)
+print("")
+
+#O PROXIMO CÓDIGO PERMITE QUE O PYTHON SOME OS NUMEROS ATÉ O NÚMERO PRE-DETERMINADO.
+#SOMA SEMPRE +2
+numero2= list(range(2,11,2))
+print(numero2)
+print("")
+#SOMA SEMPRE +4
+numero2= list(range(2,11,4))
+print(numero2)
+print("")
+
+squares=[]
+for valor in range(1,22):
+    squares.append(valor**2)
+    print(squares)
+print("")
+
+#PAG 97
