@@ -92,3 +92,13 @@ for valor in range(1,22):
 print("")
 
 #PAG 97
+
+digitos=[1,2,3,4,5,6,7,8,9,0]
+min(digitos)
+max(digitos)
+sum(digitos)
+
+print(digitos) 
+
+#FAÇA VOCÊ MESMO PAG 98
+
