@@ -99,6 +99,41 @@ max(digitos)
 sum(digitos)
 
 print(digitos) 
+print("")
 
 #FAÇA VOCÊ MESMO PAG 98
 
+fvm=[]
+for valor in range(1,21):
+    fvm.append(valor**2)
+    print(fvm)
+    print("")
+#NO COMANDO ACIMA, ELE IMPRIME TODOS OS ELEMADOS AO QUADRADO 1 AO 20, NO MESMO ITEM.
+    valor_minimo=min(fvm)
+    print(valor_minimo)
+#NO COMANDO ACIMA, ELE IMPRIME O MINIMO DA SEQUENCIA.
+    valor_maximo=max(fvm)
+    print(valor_maximo)
+#NO COMANDO ACIMA, ELE IMPRIME O MAXIMO DA SEGUENCIA.
+    soma=sum(fvm)
+    print(soma)
+#NO COMANDO ACIMA, ELE SOMA TODOS OS NÚMEROS DA SEQUENCIA FVM.
+    print("")
+#COMANDO ABAIXO, EXPLICA COMO FUNCIONA O "MID", "MAX" E "SUM".
+a=(1,2,3,4,5,6,7)
+valor_minimo= min(a)
+print(valor_minimo)
+#
+tres=[]
+for valor in range(3, 31):
+    tres.append(valor)
+    print(tres)
+    print("")
+
+#O CÓDIGO ABAIXO, ELEVA AO CUBO TODOS OS ITEM DA LISTA "FVMCUBO".
+fvmcubo=[]
+for fvmcubo in range(1,11):
+    exercicio=fvmcubo**3
+    print(exercicio)
+
+#PAG 99
