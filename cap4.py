@@ -137,3 +137,15 @@ for fvmcubo in range(1,11):
     print(exercicio)
 
 #PAG 99
+
+#FATIANDO UMA LISTA 
+
+jogadores=["Paulo","Felix","Ricardo","Adelson","Guilherme"]
+print(jogadores[0:3])
+#NO COMANDO ACIMA ELE MOSTROU OS ITENS SELECIONADOS 0, 1, 2
+#JA NO COMANDO ABAIXO, COMO NÃO FOI COLOCADO UM INDICE INFORMADO ELE, FILTRA DESDE O COMEÇO, NO CASO O "0"
+print(jogadores[:4])
+
+print(jogadores[-3:])
+
+#PAG 100
