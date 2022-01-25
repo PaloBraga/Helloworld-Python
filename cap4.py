@@ -1,3 +1,6 @@
+from glob import escape
+
+
 magicos=["Paulo", "Nemezio", "Felix"]
 
 for magico in magicos:
@@ -147,5 +150,35 @@ print(jogadores[0:3])
 print(jogadores[:4])
 
 print(jogadores[-3:])
+print("")
 
 #PAG 100
+
+print("Os três jogadores do meu time são: ")
+for jogadores in jogadores[:3]:
+    print(jogadores.title())
+
+comidas=("pizza", "lasanha", "churrasco","parmegiana")
+comidas_favoritas=comidas[:]
+
+print("Qual dessas é sua comida favorita? ") 
+print(comidas)
+
+print("Minha comida favorita é: ") 
+print(comidas_favoritas)
+
+#PAG 103
+
+#LISTA IMUTAVEL
+
+dimenção=(200,50)
+print(dimenção[0])
+print(dimenção[1])
+print("")
+
+print("Dimenções Originais: ")
+dimenções=(400, 100)
+for dimenção in dimenções:
+    print(dimenção)
+
+#PAG 105 - FAÇA VOCÊ MESMO
