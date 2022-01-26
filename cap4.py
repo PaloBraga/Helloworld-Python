@@ -182,3 +182,19 @@ for dimenção in dimenções:
     print(dimenção)
 
 #PAG 105 - FAÇA VOCÊ MESMO
+
+cardapio=("PARMEGIANA", "PIZZA", "SANDUICHE", "SUCOS")
+print("CARDAPIO ORIGINAL: ")
+for pedido in cardapio:
+    print(pedido)
+
+print("")
+
+novos=("Frango", "Carne", "Alcool")
+print("Novo Cardapio: ")
+for revisao in novos:
+    print(revisao)
+
+print("")
+
+#ESTILIZANDO SEU CODIGO PAG 105.
