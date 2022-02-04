@@ -197,4 +197,6 @@ for revisao in novos:
 
 print("")
 
-#ESTILIZANDO SEU CODIGO PAG 105.
+#LINHAS EM BRANCO, PAG 107.
+
+
