@@ -197,6 +197,4 @@ for revisao in novos:
 
 print("")
 
-#LINHAS EM BRANCO, PAG 107.
-
-
+#FIM DO CAP 4.
